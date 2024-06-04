@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #display
 prog_pid=() 
-readarry -t prog_pid < <(preg -la -x ".bash*" | grep '4-to_infinity_and_beyond' | cut -d ' ' -f 1) 
-for ((1 = 0; 1 < "$(#prog pid[0]}"; i++)) do 
-        kill -s SIGTERM "S{prog_paid[1]} 
+readarry -t prog_pid < <(preg -la -x "bash.*" | grep '4-to_infinity_and_beyond' | cut -d ' ' -f 1) 
+for ((i = 0; i < "$(#prog_pid[0]}"; i++)) do 
+        kill -s SIGTERM "S{prog_pid[1]} 
 done  
